@@ -20,11 +20,3 @@ management:
     web:
       exposure:
         include: hystrix.stream # 开启hystrix监控，否则访问 http://localhost:8001/actuator/hystrix.stream 会报404
-
-info:
-  app.name: springcloud-demo
-  company.name: com.example
-  build.artifactId: @project.artifactId@
-  build.version: @project.version@
-  spring-cloud.version: @spring-cloud.version@
-  java.version: @java.version@

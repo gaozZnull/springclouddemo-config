@@ -5,7 +5,7 @@ spring:
 
 ---
 server:
-  prot: 12002
+  port: 12002
 
 spring:
   profiles: dev
@@ -19,7 +19,7 @@ eureka:
       
 ---
 server:
-  prot: 12003
+  port: 12003
 
 spring:
   profiles: test

@@ -1,6 +1,9 @@
 server:
   port: 7001
 
+spring:
+  profiles: dev
+  
 eureka:
   instance:
     #hostname: localhost
